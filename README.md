@@ -8,6 +8,7 @@ sudo pacman -Sy gcc git
 git clone https://github.com/lualiliu/holoiso-win600-driver
 cd holoiso-win600-driver
 makepkg -si
+reboot
 ```
 
 Completed:
