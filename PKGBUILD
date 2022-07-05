@@ -8,6 +8,5 @@ arch=("x86_64")
 package() {
     make -f "${srcdir}/Makefile" install
     sudo cp -rf "${srcdir}/xpad.ko.xz" "/lib/modules/$(uname -r)/kernel/drivers/input/joystick/xpad.ko.xz"
-    sudo insmod "/lib/modules/$(uname -r)/kernel/drivers/input/joystick/xpad.ko.xz"
 }
 
