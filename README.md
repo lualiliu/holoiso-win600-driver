@@ -4,7 +4,7 @@ The Anbernic-Win600 driver in holoiso.
 Usage:
 
 ```
-pacman -Sy gcc
+sudo pacman -Sy gcc
 git clone https://github.com/lualiliu/holoiso-win600-driver
 cd holoiso-win600-driver
 makepkg -si
