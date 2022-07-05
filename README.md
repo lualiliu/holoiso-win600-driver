@@ -6,8 +6,8 @@ Usage:
 ```
 sudo pacman -Sy gcc git
 git clone https://github.com/lualiliu/holoiso-win600-driver
-cd holoiso-win600-driver
-makepkg -si
+cd holoiso-win600-driver/src
+make install
 reboot
 ```
 
